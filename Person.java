@@ -35,8 +35,8 @@ public class Person {
     }
     
     public void printPerson() {
-        System.out.println("Name: " + mNimi);
-        System.out.println("Age: " + mIka);
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
         if (address != null) {
             address.printAddress();
         }

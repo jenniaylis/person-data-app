@@ -26,7 +26,7 @@ public class Address {
     public void setCity(String aCity) {
         city = aCity;
     }
-    public void getCity() {
+    public String getCity() {
         return city;
     }
 
